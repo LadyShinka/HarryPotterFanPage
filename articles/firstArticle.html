@@ -1,0 +1,185 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <title>Harry Potter FanPage</title>
+    <link rel="icon" type="favicon.ico" href="../content/favicon.ico"/>
+    <script src="../myscripts.js"></script>
+</head>
+<body>
+    <div class="article-container">
+        <div id="article-page" class="article-cover cover item-a">
+            <nav>
+                <a href="#"><img src="../content/favicon-32x32.png"></a>
+                <a class="hover-white" href="/index.html" >Home</a>
+                <a class="hover-white" href="/blog.html">Blog</a>
+                <a class="hover-white" href="/news.html">News</a>
+                <a class="hover-white" href="#" onclick="showForm('login')">Login</a>
+                <a class="hover-white" href="#" onclick="showForm('signup')">Signup</a>
+            </nav>
+            <h1 class="shimmer">Welcome to Hogwarts</h1>
+            <form id="loginForm" action="submitForm('login')" method="post" class="hide">
+                <div class="login">
+                    <h1>Log In</h1>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" >Login</button>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <button type="button" onclick="hideForm('login')">Cancel</button>
+                    <span>Forgot <a href="#">password?</a></span>
+    
+                </div>
+            </form>
+            <form id="signupForm" action="submitForm('signup')" method="post" class="hide">
+                <div class="signup">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+              
+                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+              
+                  <div>
+                    <button type="button" onclick="hideForm('signup')">Cancel</button>
+                    <button type="submit"></button>Sign Up</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+
+        <div class="item-b secondary-grid">
+            <div class="article-page" id="firstArticle">
+                <h1>The best choices</h1>
+                <p><i>Note: This article is borrowed from Wizarding World. You can see the original one <a
+                            href="https://www.wizardingworld.com/features/ranked-the-best-and-worst-decisions-of-the-wizarding-world">here</a>.</i>
+                </p>
+                <h2>5. Harry deciding not to be friends with Draco Malfoy</h2>
+                <p>You may think that Harry Potter and Draco Malfoy were enemies from the word go. And while it is true that
+                    Harry never warmed to him, it didn’t stop Malfoy from trying to collect the famous Boy Who Lived as a
+                    friend. However, despite being an 11-year-old thrown into a new world – Harry was still astute enough to
+                    recognise that making friends with Malfoy wasn’t the best idea.</p>
+                <p>From the moment he called Hagrid a savage, to insulting Ron’s family on the Hogwarts Express, Harry saw
+                    Malfoy for who he really was and turned him down. We think Harry’s instincts in this situation were spot on
+                    – and this decision stopped any chance of him straying down a dark path and strengthened his fledgling bond
+                    with Ron.</p>
+                <p>You can read our article debating on if there was ever a scenario where this pair could've been friends here.
+                </p>
+                <h2>4. Dumbledore choosing to step away from Grindelwald</h2>
+                <p>While you may think that it was a terrible decision of Albus Dumbledore to associate with such a wizard in
+                    the first place, we believe that it was his choice to break away from Grindelwald that should be admired. It
+                    is easy to forget that Dumbledore was once a young impressionable man and not the wise headteacher we are
+                    familiar with. To him it must have been thrilling to find another wizard as gifted as he was with a vision
+                    to change the world for ‘the greater good’. However, after a devastating row, which left his sister Ariana
+                    dead, Dumbledore knew that he and Grindelwald had to part ways.</p>
+                <p>It is incredibly fortunate that Dumbledore did this. If he hadn’t, he may not have become the great man he
+                    was. He also probably would never have fought against Grindelwald and defeated him in their famous duel.
+                    Imagine how different the wizarding world would have been if Dumbledore hadn’t seen Grindelwald’s ideas for
+                    what they were and had supported him in his quest for wizard domination.</p>
+                <h2>3. Hermione deciding to form Dumbledore’s Army</h2>
+                <p>Hermione was often full of clever ideas and this one was no exception. From the moment she realised that her
+                    and her classmates would not be getting an adequate education she took matters into her own hands. Harry may
+                    have ended up being the teacher, but it was Hermione’s decision to create the group in the first place. It
+                    was also Hermione’s shrewd thinking and excellent magical ability that enabled them to know which member had
+                    betrayed them to Umbridge (those purple pustules on Marietta Edgecombe’s face were nasty but impressive).
+                </p>
+                <p>Not only did this decision enable many Hogwarts students to keep up with their education – it actually helped
+                    them to excel. The fact that so many members could produce a corporeal Patronus, which is an advanced piece
+                    of magic, is testament to this. It also meant that when the second wizarding war was on the horizon, they
+                    were a group that was as prepared as possible. Without Dumbledore’s Army we doubt someone like Neville would
+                    have had the confidence or the ability to fight the way he did. It may have started off as just a club – but
+                    it ended up being so much more.</p>
+                <h2>2. Harry asking Mrs Weasley for help on platform nine and three-quarters</h2>
+                <p>It is safe to say that when Harry and the Weasleys met each other for the first time their impressions of
+                    each other were positive. Mrs Weasley even commented on what a polite boy he was, and Harry admired their
+                    family dynamic. It was a chance meeting that led to one of the most important friendships in the series.</p>
+                <p>But what if Harry hadn’t worked up the courage to ask Mrs Weasley for help? Would things be different? If Ron
+                    hadn’t seen Harry on that platform – would he have asked to share his compartment? Would they have bonded in
+                    the same way? If Harry had felt he was all alone, would he have been more tempted to accept Draco Malfoy’s
+                    offer of friendship? Could that have meant Harry being sorted into Slytherin?</p>
+                <p>If Harry hadn’t made that choice, things may have been very different. He may never have become a member of
+                    the Weasley family, and he may not have been best friends with Ron (and he might still be stuck between
+                    platforms nine and ten at King’s Cross Station.)</p>
+                <h2>1. Harry and Ron deciding to warn Hermione about the troll</h2>
+                <p>In a similar vein to the previous decision, if Harry and Ron had not decided to risk it all to save Hermione,
+                    we may never have had the Golden Trio. If they had stayed away, Hermione would not have seen a different
+                    side to Harry and Ron, and they wouldn’t have seen Hermione covering for them with an irate Professor
+                    McGonagall. There is no doubt that their famous bond was forged in the girls’ bathroom with a snotty,
+                    unconscious mountain troll lying at their feet.</p>
+                <p>While it was Ron’s mean comments that lead to Hermione crying in the loos in the first place, it did pave the
+                    way for their eventual friendship. Just imagine how different things would have been if they hadn’t made
+                    that choice. Firstly, Hermione might have met her end only a few weeks into her new life as a witch. Even if
+                    she had survived, we doubt she would want anything to do with the boys who made her so miserable in the
+                    first place.</p>
+                <p>We also wonder whether it would have led to Voldemort’s victory. It was Hermione that provided Harry and Ron
+                    with key information about Nicolas Flamel and it took all three of them to make it past the obstacles to the
+                    Philosopher’s Stone. So, while it was an… unusual start to a friendship, we are secretly grateful for that
+                    troll.</p>
+            </div>
+                    </div>
+        <div class="item-c">
+            <footer>
+                <form action="action_page.php">
+                    <div>
+                      <h4>Subscribe to our Newsletter:</h4>
+                  
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                  
+                      <div>
+                        <button type="submit">Subscribe</button>
+                      </div>
+                    </div>
+                  </form>
+                  <div>
+                      <!-- Social Icons -->
+                    <div class="footer-menu social">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope-square"></i>
+                        </a>
+                    </div>
+                    <ul class="footer-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                  <p class="copyright">Maria Pop © 2021</p>
+            </footer>
+        </div>
+    </div>
+</body>
+

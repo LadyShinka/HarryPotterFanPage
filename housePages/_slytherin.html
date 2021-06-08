@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <title>Harry Potter FanPage</title>
+    <link rel="icon" type="favicon.ico" href="./content/favicon.ico" />
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-a slytherin-cover house-cover">
+            <nav>
+                <a href="#"><img src="../content/favicon-32x32.png"></a>
+                <a class="hover-white" href="/index.html">Home</a>
+                <a class="hover-white" href="/blog.html">Blog</a>
+                <a class="hover-white" href="/news.html">News</a>
+                <a class="hover-white" href="#" onclick="showForm('login')">Login</a>
+                <a class="hover-white" href="#" onclick="showForm('signup')">Signup</a>
+            </nav>
+            <div style="height: 750px;">
+                <img src="../content/slyth-crest.png" style="max-height: 30rem;">
+            </div>
+        </div>
+        <div class="item-b description-box house-description">
+            <h2>SlytherinPage</h2>
+            <p>Slytherin House values ambition, leadership, self-preservation, cunning and resourcefulness and was
+                founded by Salazar Slytherin.
+                Its emblematic animal is the serpent, and its colours are emerald green and silver.
+                Professor Horace Slughorn was the Head of Slytherin during the 1997–1998 school year, replacing Severus
+                Snape, who as well,
+                replaced Slughorn as Potions Professor when he retired for the first time several years prior.
+                Slytherin had produced the most Death Eaters and Dark Wizards, including Tom Riddle, Bellatrix Lestrange
+                and Lucius Malfoy, for example.
+                But that does not mean that other Houses haven’t produced any; Peter Pettigrew was a Gryffindor, and
+                Quirinus Quirrell was a Ravenclaw.</p>
+            <p>The Bloody Baron is the House Ghost. The founder of the House was Salazar Slytherin. Slytherin
+                corresponds roughly to the element of water.
+                The Slytherin dormitories and common room are reached through a bare stone wall in the Dungeons. The
+                Slytherin common room lies beneath the Black Lake.
+                It is a long, low underground room with rough stone walls and silver lamps hanging from the ceiling.
+                Famous Slytherins include Merlin, Tom Riddle, Draco Malfoy, and Dolores Umbridge.</p>
+            <span><i>Source: <a href="https://harrypotter.fandom.com/wiki/Hogwarts_Houses">Harry Potter
+                        Wiki</a></i></span>
+        </div>
+        <div class="item-c">
+            <footer>
+                <form action="action_page.php">
+                    <div>
+                        <h4>Subscribe to our Newsletter:</h4>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <div>
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <!-- Social Icons -->
+                    <div class="footer-menu social">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope-square"></i>
+                        </a>
+                    </div>
+                    <ul class="footer-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <p class="copyright">Maria Pop © 2021</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

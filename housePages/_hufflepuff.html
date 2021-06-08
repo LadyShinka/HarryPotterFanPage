@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <title>Harry Potter FanPage</title>
+    <link rel="icon" type="favicon.ico" href="./content/favicon.ico" />
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-a hufflepuff-cover house-cover">
+            <nav>
+                <a href="#"><img src="../content/favicon-32x32.png"></a>
+                <a class="hover-white" href="/index.html">Home</a>
+                <a class="hover-white" href="/blog.html">Blog</a>
+                <a class="hover-white" href="/news.html">News</a>
+                <a class="hover-white" href="#" onclick="showForm('login')">Login</a>
+                <a class="hover-white" href="#" onclick="showForm('signup')">Signup</a>
+            </nav>
+            <div style="height: 750px;">
+                <img src="../content/huff-crest.png" style="max-height: 30rem;">
+            </div>
+        </div>
+        <div class="item-b description-box house-description">
+            <h2>HufflepuffPage</h2>
+            <p>Hufflepuff values hard work, dedication, patience, loyalty, and fair play. Its emblematic animal is the
+                badger, and yellow and black are its colours.
+                Pomona Sprout was the Head of Hufflepuff during 1991-1998, Sprout left the post of Head of Hufflepuff
+                and Herbology Professor sometime before
+                2017 and her successor for the position of Head of Hufflepuff is currently unknown. The Fat Friar is its
+                ghost.
+                The founder of the House was Helga Hufflepuff.</p>
+            <p>Hufflepuff corresponds to the element of earth. The Hufflepuff dormitories and common room are located
+                somewhere in the basement, near the castle's kitchens.
+                It can be accessed by tapping the barrel two from the bottom, middle of the second row in the rhythm of
+                "Helga Hufflepuff" and is described as being a
+                cosy and welcoming place with yellow hangings, fat armchairs, and underground tunnels that lead to the
+                dormitories, which have perfectly round doors,
+                similar to barrel tops. Famous Hufflepuffs include Hengist of Woodcroft (founder of Hogsmeade), Newt
+                Scamander (author of Fantastic Beasts and Where to Find Them),
+                and Artemisia Lufkin (first female minister for magic).</p>
+            <span><i>Source: <a href="https://harrypotter.fandom.com/wiki/Hogwarts_Houses">Harry Potter
+                        Wiki</a></i></span>
+        </div>
+        <div class="item-c">
+            <footer>
+                <form action="action_page.php">
+                    <div>
+                        <h4>Subscribe to our Newsletter:</h4>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <div>
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <!-- Social Icons -->
+                    <div class="footer-menu social">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope-square"></i>
+                        </a>
+                    </div>
+                    <ul class="footer-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <p class="copyright">Maria Pop © 2021</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

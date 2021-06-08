@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+form {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.article-page {
+    padding: 2rem;
+    background-color: rgba(80, 92, 94, 0.849);
+    box-shadow: 5px 10px #292a2bd4;
+    border: 1px solid black;
+    color: #fff;
+    text-align: center;
+}
+
+.article-page p {
+    font-size: 18px;
+}
+
+.article-cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(https://wallpaperaccess.com/full/1326002.jpg);
+}
+
+#article-page h1 {
+    background-color: rgba(252, 251, 249, 0.404);
+    color: #3d3d3d;
+}
+
+#firstArticle h2, #firstArticle h1 {
+    color: #f1e9e9;
+    padding: 2rem;
+}
+
+#firstArticle h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 4.5em;
+}
+
+.login, .signup {
+    background-color: rgba(238, 234, 229, 0.904);
+    display: grid;
+    max-width: 70rem;
+    justify-content: center;
+    gap: 5px 10px;
+    padding: 2rem;
+    box-shadow: 5px 10px #292a2bd4;
+}
+
+.house-cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.gryffindor-cover {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/030/185/057/large/alexia-housden-render-01.jpg?1599845496);
+}
+
+.slytherin-cover {
+    background-image: url(https://64.media.tumblr.com/e78fb861754a0651891b936042021e93/tumblr_purk69AAWN1y0olflo6_1280.png);
+}
+
+.hufflepuff-cover {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/008/818/044/large/nikki-blom-hcr06.jpg?1515504783);
+}
+
+.ravenclaw-cover {
+    background-image: url(https://static2.srcdn.com/wordpress/wp-content/uploads/2019/07/Ravenclaw-common-room.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5);
+}
+
+.house-description {
+    background-color: rgba(240, 248, 255, 0.849);
+    padding: 2rem;
+    background-color: rgba(80, 92, 94, 0.849);
+    box-shadow: 5px 10px #292a2bd4;
+    border: 1px solid black;
+    color: #fff;
+}
+
+.house-description p {
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+html {
+    background-color: rgb(3, 42, 87);
+}
+
+nav {
+    position: fixed;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    background-color: #aeb3bf73;
+    z-index: 1000;
+}
+
+h2 {
+    /* font-family: 'Monsieur La Doulaise', cursive; */
+    font-weight: 700;
+    color: #c9c5c5;
+    text-shadow: 0.5px 0.5px rgba(43, 42, 42, 0.829);
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-weight: 700;
+    color: #616161;
+    text-decoration: none;
+    padding: 0 0.5rem 0 0.5rem;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 1.5rem;
+    text-shadow: 0.5px 0.5px #fff;
+}
+
+nav a img {
+    margin-top: 0.5rem;
+}
+
+.hover-white:hover {
+    color: #fff;
+    text-shadow: 1px 1px #585858e8;
+}
+
+footer {
+    color: cornsilk;
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-around;
+}
+
+.footer-menu {
+    float: right;
+    align-content: center;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-menu a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.social a i {
+    padding: 2px 2px;
+}
+
+#crest {
+    max-height: 250px;
+    width: auto;
+}
+
+.cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main-cover {
+    background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/2pcaAS2VS1yEZe5xz42LUF/436fcbacbbf9834a009b23ff677e3522/USJ_wwhp2.jpg);
+}
+
+.cover h1 {
+    padding-top: 4rem;
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: #616161;
+    font-size: 6rem;
+    text-shadow: 2px 2px #d2d6dbb0;
+}
+
+/* article {
+    display: flex;
+    background-color: darkgrey;
+    text-align: justify;
+    text-justify: inter-word;
+} */
+
+.polaroid {
+    max-width: 34.375rem;
+    max-height: 28.125rem;
+    font-size: 2.5em;
+    background-color: rgba(80, 92, 94, 0.849);
+    box-shadow: 5px 10px #292a2bd4;
+    overflow: hidden;
+    border: 1px solid black;
+    color: #fff;
+  }
+
+  .polaroid:hover {
+        border: 5px outset rgba(71, 70, 70, 0.842);
+  }
+
+  .polaroid p {
+      font-size: 18px;
+  }
+  
+  .description-box {
+    text-align: center;
+    padding: 10px 20px;
+    word-wrap: break-word;
+  }
+
+  .image-polaroid {
+      width: 100%;
+      max-height: inherit;
+  }
+
+  .image-polaroid:hover {
+    filter: grayscale(100%);
+  }
+
+/* article h2, article p {
+    display: inline-flex;
+} */
+
+.right img {
+    clear: left;
+    float: right;
+    margin: 10px;
+}
+
+.left img {
+    clear: right;
+    float: left;
+    margin: 10px;
+}
+
+
+.image-box {
+    position: relative;
+    max-width: 550px;
+  }
+  
+  .image {
+    max-width: 550px;
+    height: auto;
+    box-shadow: 5px 10px #292a2bd4;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(3, 42, 87);
+  }
+  
+  .image-box:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Monsieur La Doulaise', cursive;
+    text-decoration: none;
+  }
+
+  .centered-image {
+      display: flex;
+      align-self: center;
+      margin: auto;
+      max-height: 15rem;
+      max-width: auto;
+  }
+/* //remove the font-size for blog */
+  .description-box a {
+      font-size: 2em;
+      color: rgba(138, 200, 230, 0.815);
+      text-decoration: none;
+      text-shadow: 0.5px 0.5px rgb(14, 13, 13);
+  }
+
+.item-a {
+    grid-area: header;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: row1-start;
+    grid-row-end: 2;
+  }
+  .item-b {
+    grid-area: main;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    box-shadow: 5px 10px #292a2bd4;
+  }
+  
+  .item-c {
+    grid-area: footer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: auto;
+  }
+
+  .item-1 {
+    grid-area: house1;
+  }
+
+  .item-2 {
+    grid-area: house2;
+  }
+
+  .item-3 {
+    grid-area: house3;
+  }
+
+  .item-4 {
+    grid-area: house4;
+  }
+
+  .item-5 {
+      grid-area: house5;
+  }
+
+  .item-6 {
+    grid-area: house6;
+}
+
+.container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 60% 20%;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+    justify-content: center
+}
+
+.article-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 20%;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+    justify-content: center
+}
+
+.secondary-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "house1 house2"
+    "house3 house4";
+    gap: 15px 20px;
+    justify-content: center;
+}
+
+.third-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "house1 house2 house3"
+    "house4 house5 house6";
+    gap: 15px 20px;
+    justify-content: center;
+    width: inherit;
+}
+
+.article1 {
+    grid-area: art1;
+}
+
+.article2 {
+    grid-area: art2;
+}
+
+.article3 {
+    grid-area: art3;
+}
+
+.article4 {
+    grid-area: art4;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    /* grid-template-rows: auto; */
+    grid-template-areas: 
+    "art1"
+    "art2"
+    "art3"
+    "art4";
+    gap: 15px 20px;
+    justify-content: center;
+}
+
+/* @media (min-width: 975px) and (max-width: 1690px) {
+    .polaroid {
+        width: auto;
+        height: auto;
+    }
+} */
+
+@media all and (max-width: 975px) {
+    .container {
+        grid-template-rows: auto 35% 20%;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
+    }
+
+    .secondary-grid, .third-grid {
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "house1"
+            "house2"
+            "house3"
+            "house4"
+            "house5"
+            "house6";
+        justify-content: center;
+    }
+
+    .polaroid {
+        width: auto;
+        height: auto;
+    }
+
+    .image {
+        max-width: 450px;
+    }
+
+    .image-box {
+        max-width: 450px;
+    }
+
+    .centered-image {
+        max-height: 10rem;
+        width: auto;
+    }
+
+    #cover h1 {
+        font-size: 3rem;
+        text-shadow: 1px 1px #292a2bd4;
+    }
+
+}
